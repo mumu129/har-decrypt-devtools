@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "HAR 解密 - DevTools",
+  "version": "1.0.1",
+  "description": "在 DevTools 中实时抓取网络请求，点击即解密请求体与响应体",
+  "devtools_page": "devtools.html",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "har-decrypt-devtools@local.dev",
+      "strict_min_version": "109.0"
+    }
+  }
+}
